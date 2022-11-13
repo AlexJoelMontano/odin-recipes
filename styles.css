@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(196, 195, 195);
+}
+
+
+
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(197, 196, 196);
+    font-size: 32pt;
+    text-align: center;
+    border-style: ridge;
+    border-color: rgb(67, 66, 66);
+    background-image: url(./img/slate-back.jpg);
+    letter-spacing: 4px;
+    
+}
+
+.list{
+    border: 2px ridge rgb(66, 66, 66);
+    text-align: justify;
+    outline: #444444 solid 3px;
+    margin: auto;  
+    padding: 20px
+}
+.link-button {
+    color:azure;
+    background-image: url(./img/slate-back.jpg);
+    font-size: 16pt;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 520;
+    letter-spacing: 1px;
+
+}
