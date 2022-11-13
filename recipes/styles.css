@@ -1,0 +1,127 @@
+*{
+    background-color: rgb(196, 195, 195);
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(197, 196, 196);
+    font-size: 36pt;
+    text-align: center;
+    border-style: ridge;
+    border-color: rgb(67, 66, 66);
+    background-image:url(../img/slate-back.jpg);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+}
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border:1px solid black;
+    background-color: rgb(40, 46, 56);
+    height:30px;
+    padding:8px;
+}
+
+li.navbar {
+    display:inline;
+    text-align:center;
+}
+
+.navbar {
+    margin-left: auto;
+    margin-right: auto;
+    color:azure;
+    background-image:url(../img/slate-back.jpg);
+    font-size: 14pt;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+.navbar:hover {
+    color: rgb(128, 165, 202);
+    border: inset 2px rgb(73, 73, 73);
+}
+
+.name {
+    font-weight: 600;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: 1px;
+}
+
+.description {
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    outline-style: outset;
+    outline-color: rgb(140, 139, 139);
+}
+
+div.ingredients{
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type:circle;
+    border: 1px solid black;
+    width: 33%;
+    background-image: url(../img/paper.jpg);
+    background-position: 30%;
+    text-align: justify;
+    font-size: 16pt;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.ingredients{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+h2 {
+    margin:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-bottom: 5px double rgb(53, 53, 53);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+ol {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 175%;
+
+}
+
+h3 {
+    margin:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6px;
+    border-bottom: 2px solid black;
+}
