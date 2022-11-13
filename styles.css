@@ -9,12 +9,13 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color:rgb(197, 196, 196);
-    font-size: 32pt;
+    font-size: 36pt;
     text-align: center;
     border-style: ridge;
     border-color: rgb(67, 66, 66);
     background-image: url(./img/slate-back.jpg);
-    letter-spacing: 4px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
     
 }
 
